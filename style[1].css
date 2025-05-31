@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: lime;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.hologram {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.response {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  background: lime;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
